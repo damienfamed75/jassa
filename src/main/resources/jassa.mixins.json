@@ -1,11 +1,13 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "com.damienstamates.jassa.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinLivingEntity",
+    "MixinBlock"
   ],
   "client": [
-    "ExampleMixin"
+    "JassaMixin"
   ],
   "injectors": {
     "defaultRequire": 1

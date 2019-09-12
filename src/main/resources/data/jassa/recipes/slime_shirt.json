@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "W W",
+        "SWS",
+        "SSS"
+    ],
+    "key": {
+        "W": {
+            "tag": "minecraft:wool"
+        },
+        "S": {
+            "item": "minecraft:slime_ball"
+        }
+    },
+    "result": {
+        "item": "jassa:slime_shirt"
+    }
+}

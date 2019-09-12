@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BSB",
+        "W W",
+        " W "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:stick"
+        },
+        "B": {
+            "item": "minecraft:slime_block"
+        },
+        "S": {
+            "item": "minecraft:slime_ball"
+        }
+    },
+    "result": {
+        "item": "jassa:slime_slingshot"
+    }
+}
